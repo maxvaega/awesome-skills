@@ -22,19 +22,29 @@ This repository includes skills organized into two main categories:
 ### Startup Advisor
 
 **business-plan-advisor**  
-Creates comprehensive, investor-ready business plans following proven frameworks. Guides you through market analysis, competitive positioning, financial projections, go-to-market strategy, and risk assessment. Perfect for founders preparing pitch decks or validating business models.
+Expert business planning consultant for creating comprehensive, investor-ready business plans from scratch or refining existing plans. 
+Applies to startups and established businesses across all industries seeking funding or strategic planning.
 
 **mvp-validator**  
-Validates minimum viable product concepts using lean startup methodology. Analyzes product-market fit, identifies core features vs. nice-to-haves, estimates development complexity, and provides actionable go-to-market recommendations. Essential for de-risking product launches.
+Review startup MVPs for realism, agility, and business viability. This skill conducts critical but objective analysis of MVP ideas, requirements, and implementation plans, identifying strengths and pain points to provide constructive feedback.
+
+**reddit-social-media-strategist**
+This skill transforms users into effective Reddit marketers by providing actionable strategies for content creation, community engagement, and sustainable growth.
+It covers everything from identifying the right subreddits and optimizing post titles, to timing strategies and first-hour engagement tactics that maximize visibility.
+
+**elevator-pitch-advisor**
+Expert elevator pitch consultant for creating compelling, concise 30-60 second introductions tailored to specific audiences and contexts. This skill should be used when users need to craft elevator pitches for job interviews, networking events, investor meetings, or social mediaprofiles. Guides users through structured discovery, applies proven frameworks (Three C's, Four-Part Structure), integrates storytelling techniques, and delivers multiple pitch versions with industry-specific hooks and closing lines.
 
 ### Technical Roles
 
 **python-architect**  
-Designs production-ready Python architectures following enterprise best practices. Covers system design patterns, scalability considerations, testing strategies, dependency management, and deployment architectures. Ideal for technical leads planning robust backend systems.
+Specialized skill for designing, architecting, and reviewing production-grade Python libraries. Guide library structure, API design, testing strategies, and implementation.
+
+### ... and more yet to come!
 
 ---
 
-## Try in Claude Code, Claude.ai, and the API
+## Compatible agent platforms
 
 ### Claude Code
 
@@ -50,13 +60,6 @@ Then, to install a specific set of skills:
 2. Select `awesome-skills`
 3. Select `startup-advisor` or `technical-roles`
 4. Select `Install now`
-
-Alternatively, directly install either plugin via:
-
-```
-/plugin install startup-advisor@awesome-skills
-/plugin install technical-roles@awesome-skills
-```
 
 After installing the plugin, you can use the skills by mentioning them. For instance: "Use the business-plan-advisor skill to create a plan for my SaaS idea" or "Help me architect a Python microservices system using the python-architect skill."
 
@@ -106,8 +109,7 @@ Please ensure your skills follow these guidelines:
 
 Skills marketplace for LLM agents focused on startup creation and technical excellence.
 
-**License:** Apache 2.0  
-**Maintainer:** Massimo Olivieri (olivmassimo@gmail.com)
+**Maintainer:** Massimo Olivieri (maxvaega)
 
 ---
 

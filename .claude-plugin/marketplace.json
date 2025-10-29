@@ -16,7 +16,9 @@
       "strict": false,
       "skills": [
         "./business-plan-advisor",
-        "./mvp-validator"
+        "./mvp-validator",
+        "./reddit-social-media-strategist",
+        "./elevator-pitch-advisor"
       ]
     },
     {
