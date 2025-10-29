@@ -1,0 +1,32 @@
+{
+  "name": "awesome-skills",
+  "owner": {
+    "name": "Massimo Olivieri",
+    "email": "olivmassimo@gmail.com"
+  },
+  "metadata": {
+    "description": "Skill Marketplace for LLM agents focused on startup creation and technical roles",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "startup-advisor",
+      "description": "Skills for startup validation and development: business plan, MVP validation",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./business-plan-advisor",
+        "./mvp-validator"
+      ]
+    },
+    {
+      "name": "technical-roles",
+      "description": "Skills for technical roles: software architecture, Python development",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./python-architect"
+      ]
+    }
+  ]
+}
