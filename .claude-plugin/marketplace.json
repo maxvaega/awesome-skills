@@ -23,11 +23,12 @@
     },
     {
       "name": "technical-roles",
-      "description": "Skills for technical roles: software architecture, Python development",
+      "description": "Skills for technical roles: software architecture, Python development, data analytics strategy",
       "source": "./",
       "strict": false,
       "skills": [
-        "./python-architect"
+        "./python-architect",
+        "./app-analytics-strategist"
       ]
     }
   ]

@@ -40,6 +40,9 @@ Expert elevator pitch consultant for creating compelling, concise 30-60 second i
 #### 🐍 **python-architect**
 Specialized skill for designing, architecting, and reviewing production-grade Python libraries. Guide library structure, API design, testing strategies, and implementation. Build Python like you mean it! 💪
 
+#### 📊 **app-analytics-strategist**
+Expert data analytics consultant for designing and implementing data-driven growth strategies for mobile and digital applications. Provides comprehensive guidance on analytics frameworks (descriptive, diagnostic, predictive, prescriptive), North Star metrics, cohort analysis, user segmentation, A/B testing, customer journey mapping, and retention optimization. Applies to product managers, growth teams, and developers building data-driven applications across all platforms seeking to optimize user engagement, retention, and revenue through analytics. Turn data into decisions! 📈
+
 ### 🔮 ... and more yet to come!
 
 ---
