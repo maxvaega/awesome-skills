@@ -1,6 +1,21 @@
+<div align="center">
+<h1 align="center" style="font-size:4em"><a href="https://github.com/maxvaega/awesome-skills">awesome-skills</a></h1>
+</div>
+<p align="center" style="max-width:80%; margin-bottom:40px">Production-ready skills designed for entrepreneurs and software architects. Whether you're validating a startup idea, crafting a comprehensive business plan, or designing scalable Python architectures, these skills provide repeatable workflows that extend Claude's capabilities.</p>
+
+<p align="center">
+<a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" /></a>
+<a href="https://github.com/maxvaega/awesome-skills/stargazers">
+    <img src="https://img.shields.io/github/stars/maxvaega/awesome-skills" /></a>
+</p>
+
+
 # 🚀 Awesome Skills
 
 Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. This marketplace provides battle-tested skills for startup founders and technical teams building with AI agents. Think of them as superpowers for your AI! ⚡
+
+---
 
 For more information about Skills, check out the following links 🔗:
 - [What are Skills?](https://docs.anthropic.com/en/docs/claude-code/skills)
