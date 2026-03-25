@@ -127,3 +127,6 @@ Skills marketplace for LLM agents focused on startup creation and technical exce
 ---
 
 **Star this repo** if you find these skills useful! ⭐ (Your stars fuel our superpowers! 💫)
+
+## SymCLI
+- [SymCLI](https://symboliccomputation.com) - SymCLI is a math skill. Turn your coding agent into an AI mathematician, SymbolicComputation.com
