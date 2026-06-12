@@ -53,6 +53,11 @@ Specialized skill for designing, architecting, and reviewing production-grade Py
 #### 📊 **app-analytics-strategist**
 Expert data analytics consultant for designing and implementing data-driven growth strategies for mobile and digital applications. Provides comprehensive guidance on analytics frameworks (descriptive, diagnostic, predictive, prescriptive), North Star metrics, cohort analysis, user segmentation, A/B testing, customer journey mapping, and retention optimization. Applies to product managers, growth teams, and developers building data-driven applications across all platforms seeking to optimize user engagement, retention, and revenue through analytics. Turn data into decisions! 📈
 
+### 🧠 Developer Productivity
+
+#### 🧠 **dream**
+Review the current conversation (or recent session history when run standalone) and persist the user's preferences, corrections, and standing directions as project-level memories so future sessions align to them. Run `/dream` at the end of any session to make your preferences stick across conversations. Your AI, your rules! 🎯
+
 ### 🔮 ... and more yet to come!
 
 ---
