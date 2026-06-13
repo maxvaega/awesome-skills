@@ -56,7 +56,7 @@ Expert data analytics consultant for designing and implementing data-driven grow
 ### 🧠 Developer Productivity
 
 #### 🧠 **dream**
-Review the current conversation (or recent session history when run standalone) and persist the user's preferences, corrections, and standing directions as project-level memories so future sessions align to them. Run `/dream` at the end of any session to make your preferences stick across conversations. Your AI, your rules! 🎯
+A self-improving memory loop for Claude Code. Capture your preferences, corrections, and standing rules as project-level memories (`/dream`), consolidate them periodically with a "REM sleep" pass that merges, verifies, and decays old memories (`/dream rem`), and let it propose improvements to your skills and CLAUDE.md that you approve before anything changes (`/dream proposals`). Optional fully-automated mode via SessionEnd hook + nightly cron (`/dream setup`). Inspired by the Hermes Agent reflection/curator architecture, built on plain markdown + hooks + cron. Your AI, your rules — and it gets better while you sleep! 🎯
 
 ### 🔮 ... and more yet to come!
 

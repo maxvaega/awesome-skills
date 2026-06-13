@@ -30,6 +30,15 @@
         "./python-architect",
         "./app-analytics-strategist"
       ]
+    },
+    {
+      "name": "developer-productivity",
+      "description": "Skills for developer productivity: self-improving memory loop for Claude Code",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./dream"
+      ]
     }
   ]
 }
