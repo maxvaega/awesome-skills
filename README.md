@@ -29,6 +29,11 @@ This repository contains production-ready skills designed for entrepreneurs and 
 
 This repository includes skills organized into two main categories:
 
+### 🧠 Agent Self-Improvement
+
+#### 🧠 **dream**
+A self-improving memory loop for Claude Code. Capture your preferences, corrections, and standing rules as project-level memories (`/dream`), consolidate them periodically with a "REM sleep" pass that merges, verifies, and decays old memories (`/dream rem`), and let it propose improvements to your skills and CLAUDE.md that you approve before anything changes (`/dream proposals`). Optional fully-automated mode via SessionEnd hook + nightly cron (`/dream setup`). Inspired by the Hermes Agent reflection/curator architecture, built on plain markdown + hooks + cron. Your AI, your rules — and it gets better while you sleep! 🎯
+
 ### 🚀 Startup Advisor
 
 #### 📋 **business-plan-advisor**
@@ -52,11 +57,6 @@ Specialized skill for designing, architecting, and reviewing production-grade Py
 
 #### 📊 **app-analytics-strategist**
 Expert data analytics consultant for designing and implementing data-driven growth strategies for mobile and digital applications. Provides comprehensive guidance on analytics frameworks (descriptive, diagnostic, predictive, prescriptive), North Star metrics, cohort analysis, user segmentation, A/B testing, customer journey mapping, and retention optimization. Applies to product managers, growth teams, and developers building data-driven applications across all platforms seeking to optimize user engagement, retention, and revenue through analytics. Turn data into decisions! 📈
-
-### 🧠 Developer Productivity
-
-#### 🧠 **dream**
-A self-improving memory loop for Claude Code. Capture your preferences, corrections, and standing rules as project-level memories (`/dream`), consolidate them periodically with a "REM sleep" pass that merges, verifies, and decays old memories (`/dream rem`), and let it propose improvements to your skills and CLAUDE.md that you approve before anything changes (`/dream proposals`). Optional fully-automated mode via SessionEnd hook + nightly cron (`/dream setup`). Inspired by the Hermes Agent reflection/curator architecture, built on plain markdown + hooks + cron. Your AI, your rules — and it gets better while you sleep! 🎯
 
 ### 🔮 ... and more yet to come!
 
