@@ -22,6 +22,15 @@
       ]
     },
     {
+      "name": "cost",
+      "description": "Estimate what your Claude Cowork / Claude Code conversations would cost on the pay-per-token Claude API, with cache-aware token counts and USD/EUR pricing",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cost"
+      ]
+    },
+    {
       "name": "technical-roles",
       "description": "Skills for technical roles: software architecture, Python development, data analytics strategy",
       "source": "./",

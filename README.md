@@ -34,6 +34,11 @@ This repository includes skills organized into two main categories:
 #### 🧠 **dream**
 A self-improving memory loop for Claude Code. Capture your preferences, corrections, and standing rules as project-level memories (`/dream`), consolidate them periodically with a "REM sleep" pass that merges, verifies, and decays old memories (`/dream rem`), and let it propose improvements to your skills and CLAUDE.md that you approve before anything changes (`/dream proposals`). Optional fully-automated mode via SessionEnd hook + nightly cron (`/dream setup`). Inspired by the Hermes Agent reflection/curator architecture, built on plain markdown + hooks + cron. Your AI, your rules — and it gets better while you sleep! 🎯
 
+### 💰 Cost & Usage
+
+#### 💰 **cost**
+Estimate what your **Claude Cowork / Claude Code** conversations would cost if run on the **pay-per-token Claude API** instead of the subscription. It reads the JSONL transcripts under `~/.claude/projects/`, sums the **actual** token usage (cache-aware), and prices it at Anthropic list rates — reporting token counts and cost in **USD and EUR** for the current conversation or your whole history (`/cost`). A faithful replay cost, not a guess — perfect for comparing subscription vs API pricing! 💸
+
 ### 🚀 Startup Advisor
 
 #### 📋 **business-plan-advisor**
@@ -69,14 +74,14 @@ Expert data analytics consultant for designing and implementing data-driven grow
 You can register this repository as a Claude Code Plugin marketplace by running the following command in Claude Code:
 
 ```
-/plugin marketplace add yourusername/awesome-skills
+/plugin marketplace add maxvaega/awesome-skills
 ```
 
 Then, to install a specific set of skills:
 
 1. Select `Browse and install plugins`
 2. Select `awesome-skills`
-3. Select `startup-advisor` or `technical-roles`
+3. Select a plugin (`cost`, `startup-advisor`, `technical-roles`, or `developer-productivity`)
 4. Select `Install now`
 
 After installing the plugin, you can use the skills by mentioning them. For instance: "Use the business-plan-advisor skill to create a plan for my SaaS idea" or "Help me architect a Python microservices system using the python-architect skill."
