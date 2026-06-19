@@ -209,11 +209,23 @@ def find_conversations() -> list[Path] | None:
 
 # --- Formatting --------------------------------------------------------------
 def usd_str(d: Decimal) -> str:
-    return f"${d.quantize(Decimal('0.0001'))}"
+    return f"${d.quantize(Decimal('0.01'))}"
 
 
 def eur_str(d: Decimal, rate: Decimal) -> str:
-    return f"€{(d * rate).quantize(Decimal('0.0001'))}"
+    # Two decimals, comma as the decimal separator (European convention).
+    amount = f"{(d * rate).quantize(Decimal('0.01'))}".replace(".", ",")
+    return f"€{amount}"
+
+
+def money_fields(d: Decimal, rate: Decimal) -> dict:
+    """USD/EUR fields for JSON: numeric (2 decimals) + ready-to-render strings."""
+    return {
+        "usd": float(d.quantize(Decimal("0.01"))),
+        "eur": float((d * rate).quantize(Decimal("0.01"))),
+        "usd_display": usd_str(d),
+        "eur_display": eur_str(d, rate),
+    }
 
 
 UNAVAILABLE_MESSAGE = (
@@ -245,8 +257,7 @@ def model_block_json(by_model: dict, rate: Decimal) -> list:
             "calls": acc["calls"],
             "tokens": {k: acc[k] for k in TOKEN_KEYS},
             "total_tokens": sum(acc[k] for k in TOKEN_KEYS),
-            "usd": float((c or Decimal(0)).quantize(Decimal("0.000001"))),
-            "eur": float(((c or Decimal(0)) * rate).quantize(Decimal("0.000001"))),
+            **money_fields(c or Decimal(0), rate),
         })
     return out
 
@@ -277,8 +288,7 @@ def run_current(args, files, rate):
                 "tokens": {**{k: tok[k] for k in TOKEN_KEYS}, "total": tok["total"]},
                 "server_tool_use": {"web_search": tok["web_search"], "web_fetch": tok["web_fetch"]},
                 "by_model": model_block_json(by_model, rate),
-                "usd": float(usd.quantize(Decimal("0.000001"))),
-                "eur": float((usd * rate).quantize(Decimal("0.000001"))),
+                **money_fields(usd, rate),
             },
             "unknown_models": sorted(unknown),
         }, indent=2))
@@ -345,14 +355,12 @@ def run_history(args, files, rate):
                 "calls": r["calls"],
                 "total_tokens": r["tokens"]["total"],
                 "tokens": {k: r["tokens"][k] for k in TOKEN_KEYS},
-                "usd": float(r["usd"].quantize(Decimal("0.000001"))),
-                "eur": float((r["usd"] * rate).quantize(Decimal("0.000001"))),
+                **money_fields(r["usd"], rate),
             } for r in rows],
             "total": {
                 "total_tokens": grand["total"],
                 "tokens": {k: grand[k] for k in TOKEN_KEYS},
-                "usd": float(grand_usd.quantize(Decimal("0.000001"))),
-                "eur": float((grand_usd * rate).quantize(Decimal("0.000001"))),
+                **money_fields(grand_usd, rate),
             },
             "unknown_models": sorted(unknown_all),
         }, indent=2))

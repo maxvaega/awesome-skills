@@ -53,6 +53,11 @@ The worker is `cost.py`, located in this skill's folder. Run it with the system 
    (uncached input / cache read / cache write / output / **total**) and the cost in **USD
    and EUR**. In history mode, present a ranked table (most expensive first) with a TOTAL row.
 
+   **Money formatting — always use exactly two decimals.** Each cost object carries
+   ready-to-render strings: use `usd_display` (e.g. `$1.23`) and `eur_display` (e.g.
+   `€1,13`) verbatim. The euro figure uses a **comma** as the decimal separator. Do not
+   re-derive the amounts from the numeric `usd`/`eur` fields.
+
 ## Graceful Fallback (run outside Cowork / Claude Code)
 
 If the script returns `{"status": "unavailable", ...}`, it found no transcripts — this
