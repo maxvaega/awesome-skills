@@ -11,13 +11,14 @@
   "plugins": [
     {
       "name": "startup-advisor",
-      "description": "Skills for startup validation and development: business plan, MVP validation",
+      "description": "Skills for startup validation and development: business plan, MVP validation, market research",
       "source": "./",
       "strict": false,
       "skills": [
         "./business-plan-advisor",
         "./mvp-validator",
         "./reddit-social-media-strategist",
+        "./x-data-market-research",
         "./elevator-pitch-advisor"
       ]
     },
