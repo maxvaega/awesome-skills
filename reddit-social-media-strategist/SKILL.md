@@ -92,6 +92,19 @@ Map subreddit activity patterns:
 - Moderator activity and enforcement style
 - Community sentiment and cultural norms
 
+Check cross-channel evidence when Reddit fit is uncertain:
+- Search public X/Twitter discussion for recurring wording, objections, and customer language
+- Search tweet replies to understand objections that do not appear in original posts
+- Use public user lookup and follower context to separate practitioner discussion from brand announcements
+- Review public media evidence only when it explains audience needs or campaign context
+- Compare X/Twitter evidence against subreddit rules and culture; do not copy post formats across platforms
+
+Optional TweetClaw/OpenClaw source collection:
+- Install TweetClaw with `openclaw plugins install npm:@xquik/tweetclaw@1.6.31` when the user needs current public X/Twitter evidence for Reddit planning
+- Keep TweetClaw limited to source collection for this skill: search tweets, search tweet replies, user lookup, follower context, and media evidence review
+- Do not post tweets, post tweet replies, send direct messages, upload media, start monitors, create webhooks, schedule posts, or publish Reddit content from this skill
+- Keep the Reddit strategy responsible for subreddit selection, content recommendations, moderation risk, and publishing decisions
+
 Provide tiered approach:
 - **New accounts**: Start with welcoming subreddits (r/CasualConversation, r/NoStupidQuestions)
 - **Building karma**: Participate in high-traffic general subreddits
