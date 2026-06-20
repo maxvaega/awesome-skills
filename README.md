@@ -34,6 +34,9 @@ This repository includes skills organized into two main categories:
 #### 🧠 **dream**
 A self-improving memory loop for Claude Code. Capture your preferences, corrections, and standing rules as project-level memories (`/dream`), consolidate them periodically with a "REM sleep" pass that merges, verifies, and decays old memories (`/dream rem`), and let it propose improvements to your skills and CLAUDE.md that you approve before anything changes (`/dream proposals`). Optional fully-automated mode via SessionEnd hook + nightly cron (`/dream setup`). Inspired by the Hermes Agent reflection/curator architecture, built on plain markdown + hooks + cron. Your AI, your rules — and it gets better while you sleep! 🎯
 
+#### 🧭 **ax-extract-workflow**
+Reconstruct the workflow behind a shipped artifact. Given a commit, date, or feature name, this skill uses the local ax graph to find the related sessions, skills, commits, and agent delegations, then turns them into an ordered recipe you can reuse.
+
 ### 💰 Cost & Usage
 
 #### 💰 **cost**
@@ -84,7 +87,7 @@ Then, to install a specific set of skills:
 3. Select a plugin (`cost`, `startup-advisor`, `technical-roles`, or `developer-productivity`)
 4. Select `Install now`
 
-After installing the plugin, you can use the skills by mentioning them. For instance: "Use the business-plan-advisor skill to create a plan for my SaaS idea" or "Help me architect a Python microservices system using the python-architect skill."
+After installing the plugin, you can use the skills by mentioning them. For instance: "Use the business-plan-advisor skill to create a plan for my SaaS idea", "Help me architect a Python microservices system using the python-architect skill", or "Use ax-extract-workflow to reconstruct how we shipped this feature."
 
 ### 🌐 Claude.ai
 
