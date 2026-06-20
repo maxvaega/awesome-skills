@@ -42,11 +42,12 @@
     },
     {
       "name": "developer-productivity",
-      "description": "Skills for developer productivity: self-improving memory loop for Claude Code",
+      "description": "Skills for developer productivity: self-improving memory loop and workflow reconstruction for Claude Code",
       "source": "./",
       "strict": false,
       "skills": [
-        "./dream"
+        "./dream",
+        "./ax-extract-workflow"
       ]
     }
   ]
