@@ -27,7 +27,7 @@ This repository contains production-ready skills designed for entrepreneurs and 
 
 ## 💎 Available Skills
 
-This repository includes skills organized into two main categories:
+This repository includes skills organized into several practical categories:
 
 ### 🧠 Agent Self-Improvement
 
@@ -63,6 +63,11 @@ Specialized skill for designing, architecting, and reviewing production-grade Py
 #### 📊 **app-analytics-strategist**
 Expert data analytics consultant for designing and implementing data-driven growth strategies for mobile and digital applications. Provides comprehensive guidance on analytics frameworks (descriptive, diagnostic, predictive, prescriptive), North Star metrics, cohort analysis, user segmentation, A/B testing, customer journey mapping, and retention optimization. Applies to product managers, growth teams, and developers building data-driven applications across all platforms seeking to optimize user engagement, retention, and revenue through analytics. Turn data into decisions! 📈
 
+### Data & Automation
+
+#### **x-twitter-scraper**
+Xquik skill for X data workflows, including tweet search, user lookup, exports, monitoring, webhooks, MCP setup, SDK setup, and confirmation-gated publishing actions.
+
 ### 🔮 ... and more yet to come!
 
 ---
@@ -81,7 +86,7 @@ Then, to install a specific set of skills:
 
 1. Select `Browse and install plugins`
 2. Select `awesome-skills`
-3. Select a plugin (`cost`, `startup-advisor`, `technical-roles`, or `developer-productivity`)
+3. Select a plugin (`cost`, `startup-advisor`, `technical-roles`, `data-automation`, or `developer-productivity`)
 4. Select `Install now`
 
 After installing the plugin, you can use the skills by mentioning them. For instance: "Use the business-plan-advisor skill to create a plan for my SaaS idea" or "Help me architect a Python microservices system using the python-architect skill."

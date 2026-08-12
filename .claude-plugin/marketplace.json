@@ -41,6 +41,15 @@
       ]
     },
     {
+      "name": "data-automation",
+      "description": "Skills for data collection, API workflows, monitoring, and event delivery",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./x-twitter-scraper"
+      ]
+    },
+    {
       "name": "developer-productivity",
       "description": "Skills for developer productivity: self-improving memory loop for Claude Code",
       "source": "./",
