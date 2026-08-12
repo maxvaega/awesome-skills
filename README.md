@@ -52,6 +52,13 @@ Review startup MVPs for realism, agility, and business viability. This skill con
 This skill transforms users into effective Reddit marketers by providing actionable strategies for content creation, community engagement, and sustainable growth.
 It covers everything from identifying the right subreddits and optimizing post titles, to timing strategies and first-hour engagement tactics that maximize visibility.
 
+#### 🔎 **x-data-market-research**
+
+Plan startup research with public X/Twitter data through Xquik. Use this skill
+to define compliant search questions, gather public conversation signals,
+compare audience segments, and turn findings into MVP, positioning, and content
+hypotheses.
+
 #### 🎤 **elevator-pitch-advisor**
 Expert elevator pitch consultant for creating compelling, concise 30-60 second introductions tailored to specific audiences and contexts. This skill should be used when users need to craft elevator pitches for job interviews, networking events, investor meetings, or social media profiles. Guides users through structured discovery, applies proven frameworks (Three C's, Four-Part Structure), integrates storytelling techniques, and delivers multiple pitch versions with industry-specific hooks and closing lines.
 
