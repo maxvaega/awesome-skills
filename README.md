@@ -27,6 +27,7 @@ This repository contains production-ready skills designed for entrepreneurs and 
 
 ## 💎 Available Skills
 
+- [mblode/agent-skills](https://github.com/mblode/agent-skills) - Nobody ships AI slop on purpose. These skills make sure you don't. UI audits, typography, docs, PR review, and releases.
 This repository includes skills organized into two main categories:
 
 ### 🧠 Agent Self-Improvement
